@@ -26,7 +26,7 @@ export default function SignUp() {
       alert("Account Created Successfully");
       navigate("/login");
     } catch (error) {
-      alert(error.message);
+      alert(error.message);//fixed
     }
   };
 
